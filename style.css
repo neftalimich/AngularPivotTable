@@ -1,0 +1,83 @@
+.qv-object-AngularPivotTable div.qv-object-content-container {
+	overflow: auto;
+}
+
+.qv-object-AngularPivotTable .text-success {
+    color: green;
+}
+
+.qv-object-AngularPivotTable .text-danger {
+    color: red;
+}
+
+.qv-object-AngularPivotTable .text-info {
+    color: dodgerblue;
+}
+.qv-object-AngularPivotTable .text-disabled {
+    color: lightgray;
+}
+
+.qv-object-AngularPivotTable .text-left {
+    text-align: left !important;
+}
+
+.qv-object-AngularPivotTable .text-center {
+    text-align: center !important;
+}
+
+.qv-object-AngularPivotTable .text-right {
+    text-align: right !important;
+}
+
+
+.qv-object-AngularPivotTable .container {
+    width: 98%;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.qv-object-AngularPivotTable .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.qv-object-AngularPivotTable .col-6, .qv-object-AngularPivotTable .col-2, .qv-object-AngularPivotTable .col-10 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.qv-object-AngularPivotTable .col-10 {
+    -ms-flex: 0 0 80%;
+    flex: 0 0 80%;
+    max-width: 80%;
+}
+.qv-object-AngularPivotTable .col-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.qv-object-AngularPivotTable .col-6 {
+    -ms-flex: 0 0 48%;
+    flex: 0 0 48%;
+    max-width: 48%;
+}
+
+.qv-object-AngularPivotTable .col-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.qv-object-AngularPivotTable .col-2 {
+    -ms-flex: 0 0 16%;
+    flex: 0 0 16%;
+    max-width: 16%;
+}
